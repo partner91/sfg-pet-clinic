@@ -2,9 +2,11 @@ package hr.hrsak.sfgpetclinic.services.map;
 
 import hr.hrsak.sfgpetclinic.model.Owner;
 import hr.hrsak.sfgpetclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService{
 
     @Override
